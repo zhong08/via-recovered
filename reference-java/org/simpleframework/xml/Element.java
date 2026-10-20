@@ -1,0 +1,17 @@
+package org.simpleframework.xml;
+
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+
+/* JADX INFO: compiled from: r8-map-id-9ddfae14bf714ea4d99adb545750f30f851506e4a695229fbbf7a2a8013b30e2 */
+/* JADX INFO: loaded from: classes.dex */
+@Retention(RetentionPolicy.RUNTIME)
+public @interface Element {
+    boolean data() default false;
+
+    String name() default "";
+
+    boolean required() default true;
+
+    Class type() default void.class;
+}

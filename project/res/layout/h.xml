@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingTop="12.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/fk" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/yz" android:textDirection="locale" style="@style/a0" />
+    <HorizontalScrollView android:id="@id/br" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:fillViewport="true" android:layout_below="@id/fk" style="@style/j">
+        <EditText android:id="@id/b4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="@string/kd" android:inputType="textNoSuggestions" android:imeOptions="actionNext" android:textDirection="locale" style="@style/i" />
+    </HorizontalScrollView>
+    <EditText android:id="@id/ax" android:background="@drawable/w" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:hint="@string/k_" android:layout_below="@id/br" android:inputType="textPassword|textNoSuggestions" android:imeOptions="actionDone" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" android:layout_toStartOf="@id/cc" style="@style/i" />
+    <ImageView android:id="@id/cc" android:background="@drawable/o" android:paddingLeft="7.0dip" android:paddingRight="7.0dip" android:layout_width="36.0dip" android:layout_height="wrap_content" android:src="@drawable/cs" android:tint="?a9" android:layout_alignTop="@id/ax" android:layout_alignBottom="@id/ax" android:contentDescription="@string/qc" android:layout_marginEnd="9.0dip" android:layout_alignParentEnd="true" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/dh" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:visibility="gone" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_below="@id/ax" />
+    <TextView android:id="@id/ew" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@android:string/ok" android:layout_below="@id/dh" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" style="@style/y" />
+    <TextView android:id="@id/er" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@android:string/cancel" android:layout_toLeftOf="@id/ew" android:layout_below="@id/dh" android:layout_toStartOf="@id/ew" style="@style/y" />
+</RelativeLayout>

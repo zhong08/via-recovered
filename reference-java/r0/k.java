@@ -1,0 +1,54 @@
+package r0;
+
+import java.lang.reflect.Array;
+import java.util.List;
+import java.util.concurrent.Executor;
+import org.chromium.support_lib_boundary.ProxyControllerBoundaryInterface;
+
+/* JADX INFO: compiled from: r8-map-id-9ddfae14bf714ea4d99adb545750f30f851506e4a695229fbbf7a2a8013b30e2 */
+/* JADX INFO: loaded from: classes.dex */
+public class k extends q0.c {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public ProxyControllerBoundaryInterface f11437a;
+
+    public static String[][] e(List list) {
+        String[][] strArr = (String[][]) Array.newInstance((Class<?>) String.class, list.size(), 2);
+        for (int i10 = 0; i10 < list.size(); i10++) {
+            strArr[i10][0] = ((q0.b.C0114b) list.get(i10)).a();
+            strArr[i10][1] = ((q0.b.C0114b) list.get(i10)).b();
+        }
+        return strArr;
+    }
+
+    @Override // q0.c
+    public void a(Executor executor, Runnable runnable) {
+        if (!o.Q.d()) {
+            throw o.a();
+        }
+        d().clearProxyOverride(runnable, executor);
+    }
+
+    @Override // q0.c
+    public void c(q0.b bVar, Executor executor, Runnable runnable) {
+        a.d dVar = o.Q;
+        a.d dVar2 = o.W;
+        String[][] strArrE = e(bVar.b());
+        String[] strArr = (String[]) bVar.a().toArray(new String[0]);
+        if (dVar.d() && !bVar.c()) {
+            d().setProxyOverride(strArrE, strArr, runnable, executor);
+        } else {
+            if (!dVar.d() || !dVar2.d()) {
+                throw o.a();
+            }
+            d().setProxyOverride(strArrE, strArr, runnable, executor, bVar.c());
+        }
+    }
+
+    public final ProxyControllerBoundaryInterface d() {
+        if (this.f11437a == null) {
+            this.f11437a = p.d().getProxyController();
+        }
+        return this.f11437a;
+    }
+}

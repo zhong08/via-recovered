@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="am">#3333b5e5</item>
+    <item type="drawable" name="an">#0cffffff</item>
+</resources>

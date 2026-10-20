@@ -1,0 +1,72 @@
+.class public final Lcom/google/android/gms/dynamite/d;
+.super Ljava/lang/Object;
+.source "r8-map-id-9ddfae14bf714ea4d99adb545750f30f851506e4a695229fbbf7a2a8013b30e2"
+
+# interfaces
+.implements Lcom/google/android/gms/dynamite/DynamiteModule$a;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Landroid/content/Context;Ljava/lang/String;Lcom/google/android/gms/dynamite/DynamiteModule$a$a;)Lcom/google/android/gms/dynamite/DynamiteModule$a$b;
+    .locals 2
+
+    .line 1
+    new-instance v0, Lcom/google/android/gms/dynamite/DynamiteModule$a$b;
+
+    .line 2
+    .line 3
+    invoke-direct {v0}, Lcom/google/android/gms/dynamite/DynamiteModule$a$b;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    const/4 v1, 0x0
+
+    .line 7
+    invoke-interface {p3, p1, p2, v1}, Lcom/google/android/gms/dynamite/DynamiteModule$a$a;->a(Landroid/content/Context;Ljava/lang/String;Z)I
+
+    .line 8
+    .line 9
+    .line 10
+    move-result p1
+
+    .line 11
+    iput p1, v0, Lcom/google/android/gms/dynamite/DynamiteModule$a$b;->b:I
+
+    .line 12
+    .line 13
+    if-nez p1, :cond_0
+
+    .line 14
+    .line 15
+    iput v1, v0, Lcom/google/android/gms/dynamite/DynamiteModule$a$b;->c:I
+
+    .line 16
+    .line 17
+    return-object v0
+
+    .line 18
+    :cond_0
+    const/4 p1, 0x1
+
+    .line 19
+    iput p1, v0, Lcom/google/android/gms/dynamite/DynamiteModule$a$b;->c:I
+
+    .line 20
+    .line 21
+    return-object v0
+.end method

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="120.0dip" android:layout_height="120.0dip" android:src="@drawable/cy" android:contentDescription="@string/ce" />
+        <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/a9" android:textColor="?ac" android:layout_gravity="center_horizontal" android:id="@id/fk" android:nextFocusDown="@id/en" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a1i" android:textDirection="locale" />
+        <TextView android:textSize="@dimen/a_" android:textColor="?ac" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/en" android:nextFocusUp="@id/fk" android:nextFocusDown="@id/el" android:layout_width="260.0dip" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:lineSpacingMultiplier="1.2" android:textDirection="locale" />
+        <TextView android:textSize="@dimen/a_" android:textColor="?a_" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/el" android:paddingLeft="16.0dip" android:paddingTop="12.0dip" android:paddingRight="16.0dip" android:paddingBottom="12.0dip" android:nextFocusUp="@id/en" android:nextFocusDown="@id/ev" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:minWidth="216.0dip" android:text="@string/bu" android:lines="1" />
+        <TextView android:textSize="@dimen/a_" android:textColor="?ad" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/ev" android:background="@drawable/o" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:paddingBottom="8.0dip" android:nextFocusUp="@id/el" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:minWidth="80.0dip" android:text="@string/gg" />
+    </LinearLayout>
+</ScrollView>

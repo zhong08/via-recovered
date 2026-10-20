@@ -1,0 +1,46 @@
+.class public final synthetic Le8/s;
+.super Ljava/lang/Object;
+.source "r8-map-id-9ddfae14bf714ea4d99adb545750f30f851506e4a695229fbbf7a2a8013b30e2"
+
+# interfaces
+.implements Lw5/k$m;
+
+
+# instance fields
+.field public final synthetic a:Landroid/os/Message;
+
+
+# direct methods
+.method public synthetic constructor <init>(Landroid/os/Message;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Le8/s;->a:Landroid/os/Message;
+
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Landroid/view/View;Lw5/k$p;)V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Le8/s;->a:Landroid/os/Message;
+
+    .line 2
+    .line 3
+    invoke-static {v0, p1, p2}, Le8/b0;->J(Landroid/os/Message;Landroid/view/View;Lw5/k$p;)V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method

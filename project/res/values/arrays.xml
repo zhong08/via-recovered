@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="a">
+        <item>@string/po</item>
+        <item>@string/pp</item>
+        <item>@string/ch</item>
+    </string-array>
+    <string-array name="b">
+        <item>@string/jv</item>
+        <item>@string/dp</item>
+    </string-array>
+    <string-array name="c">
+        <item>@string/f3</item>
+        <item>@string/f8</item>
+        <item>@string/f9</item>
+        <item>@string/r9</item>
+        <item>@string/f_</item>
+        <item>@string/f5</item>
+        <item>@string/f2</item>
+    </string-array>
+    <string-array name="d">
+        <item>@string/jo</item>
+        <item>@string/jp</item>
+        <item>@string/jq</item>
+    </string-array>
+    <string-array name="e">
+        <item>@string/fd</item>
+        <item>@string/g</item>
+        <item>@string/j</item>
+        <item>@string/b2</item>
+    </string-array>
+    <string-array name="f">
+        <item>@string/fd</item>
+        <item>@string/qk</item>
+        <item>@string/y2</item>
+        <item>@string/ki</item>
+        <item>@string/od</item>
+    </string-array>
+    <string-array name="g">
+        <item>@string/gd</item>
+        <item>@string/c_</item>
+        <item>@string/ch</item>
+    </string-array>
+    <string-array name="h">
+        <item>@string/jf</item>
+        <item>@string/pr</item>
+        <item>@string/pt</item>
+        <item>@string/ps</item>
+    </string-array>
+    <string-array name="i">
+        <item>@string/zw</item>
+        <item>@string/zv</item>
+        <item>@string/zu</item>
+        <item>@string/zs</item>
+    </string-array>
+    <string-array name="j">
+        <item>@string/ny</item>
+        <item>@string/i2</item>
+        <item>@string/i1</item>
+        <item>@string/i3</item>
+        <item>@string/i0</item>
+    </string-array>
+    <string-array name="k">
+        <item>@string/kb</item>
+        <item>@string/kc</item>
+        <item>@string/a0n</item>
+    </string-array>
+    <string-array name="l">
+        <item>@string/fd</item>
+        <item>@string/bl</item>
+        <item>@string/bn</item>
+        <item>@string/bp</item>
+        <item>@string/br</item>
+        <item>@string/bm</item>
+    </string-array>
+</resources>

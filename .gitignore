@@ -1,0 +1,13 @@
+.cache/
+.signing/
+output/
+logs/
+project/build/
+project/dist/
+
+*.private.json
+*.jks
+*.keystore
+*.p12
+.env
+.env.*

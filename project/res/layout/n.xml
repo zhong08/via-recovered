@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingTop="6.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/bz" android:background="@drawable/o" android:padding="@dimen/e" android:layout_width="@dimen/h" android:layout_height="@dimen/g" android:src="@drawable/b2" android:tint="?a9" android:contentDescription="@string/nv" />
+    <TextView android:gravity="center_vertical" android:id="@id/fk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="0.0dip" android:text="@string/te" android:layout_toRightOf="@id/bz" android:layout_alignTop="@id/bz" android:layout_alignBottom="@id/bz" android:textDirection="locale" android:layout_toEndOf="@id/bz" style="@style/a0" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/cs" android:background="@drawable/p" android:paddingLeft="16.0dip" android:paddingTop="6.0dip" android:paddingRight="16.0dip" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:layout_below="@id/fk">
+        <TextView android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:text="@string/a1f" android:layout_weight="1.0" style="@style/a6" />
+        <CheckBox android:id="@id/ap" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_margin="2.0dip" android:button="?a4" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/p" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginBottom="4.0dip" android:layout_below="@id/cs">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:text="@string/k9" style="@style/a6" />
+        <EditText android:id="@id/ay" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="0.0dip" android:layout_marginBottom="0.0dip" android:hint="/Via" android:layout_weight="1.0" android:inputType="textNoSuggestions" android:imeOptions="actionNext" android:layout_marginStart="16.0dip" android:layout_marginEnd="0.0dip" style="@style/z" />
+    </LinearLayout>
+</RelativeLayout>

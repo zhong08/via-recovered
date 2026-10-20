@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/a9" android:textColor="?ad" android:gravity="center" android:id="@id/ey" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/hg" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/di" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="48.0dip" />
+    <LinearLayout android:layout_gravity="bottom" android:id="@id/cv" android:layout_width="fill_parent" android:layout_height="@dimen/g">
+        <ImageView android:id="@id/ck" android:background="@drawable/o" android:padding="@dimen/e" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/di" android:tint="?a9" android:layout_weight="1.0" android:contentDescription="@string/tc" />
+        <SeekBar android:id="@id/dk" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="4.0" style="@style/s" />
+        <ImageView android:id="@id/cg" android:background="@drawable/o" android:padding="@dimen/e" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/ac" android:tint="?a9" android:layout_weight="1.0" android:contentDescription="@string/rz" />
+        <ImageView android:id="@id/cd" android:background="@drawable/o" android:padding="@dimen/e" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/cw" android:tint="?a9" android:layout_weight="1.0" android:contentDescription="@string/gq" />
+        <ImageView android:id="@id/c3" android:background="@drawable/o" android:padding="@dimen/e" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/bp" android:tint="?a9" android:layout_weight="1.0" android:contentDescription="@string/it" />
+        <TextView android:textSize="@dimen/a_" android:typeface="sans" android:textColor="?ac" android:gravity="center" android:id="@id/ff" android:background="@drawable/o" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+</FrameLayout>

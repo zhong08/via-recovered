@@ -1,0 +1,159 @@
+.class public final Lf2/e7;
+.super Ljava/lang/Object;
+.source "r8-map-id-9ddfae14bf714ea4d99adb545750f30f851506e4a695229fbbf7a2a8013b30e2"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field public final synthetic e:Ljava/util/concurrent/atomic/AtomicReference;
+
+.field public final synthetic j:Lf2/o7;
+
+
+# direct methods
+.method public constructor <init>(Lf2/o7;Ljava/util/concurrent/atomic/AtomicReference;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lf2/e7;->j:Lf2/o7;
+
+    .line 2
+    .line 3
+    iput-object p2, p0, Lf2/e7;->e:Ljava/util/concurrent/atomic/AtomicReference;
+
+    .line 4
+    .line 5
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 6
+    .line 7
+    .line 8
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 5
+
+    .line 1
+    iget-object v0, p0, Lf2/e7;->e:Ljava/util/concurrent/atomic/AtomicReference;
+
+    .line 2
+    .line 3
+    monitor-enter v0
+
+    .line 4
+    :try_start_0
+    iget-object v1, p0, Lf2/e7;->e:Ljava/util/concurrent/atomic/AtomicReference;
+
+    .line 5
+    .line 6
+    iget-object v2, p0, Lf2/e7;->j:Lf2/o7;
+
+    .line 7
+    .line 8
+    iget-object v2, v2, Lf2/a6;->a:Lf2/h5;
+
+    .line 9
+    .line 10
+    invoke-virtual {v2}, Lf2/h5;->z()Lf2/g;
+
+    .line 11
+    .line 12
+    .line 13
+    move-result-object v2
+
+    .line 14
+    iget-object v3, p0, Lf2/e7;->j:Lf2/o7;
+
+    .line 15
+    .line 16
+    iget-object v3, v3, Lf2/a6;->a:Lf2/h5;
+
+    .line 17
+    .line 18
+    invoke-virtual {v3}, Lf2/h5;->B()Lf2/m3;
+
+    .line 19
+    .line 20
+    .line 21
+    move-result-object v3
+
+    .line 22
+    invoke-virtual {v3}, Lf2/m3;->s()Ljava/lang/String;
+
+    .line 23
+    .line 24
+    .line 25
+    move-result-object v3
+
+    .line 26
+    sget-object v4, Lf2/i3;->N:Lf2/h3;
+
+    .line 27
+    .line 28
+    invoke-virtual {v2, v3, v4}, Lf2/g;->x(Ljava/lang/String;Lf2/h3;)Ljava/lang/String;
+
+    .line 29
+    .line 30
+    .line 31
+    move-result-object v2
+
+    .line 32
+    invoke-virtual {v1, v2}, Ljava/util/concurrent/atomic/AtomicReference;->set(Ljava/lang/Object;)V
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_1
+
+    .line 33
+    .line 34
+    .line 35
+    :try_start_1
+    iget-object v1, p0, Lf2/e7;->e:Ljava/util/concurrent/atomic/AtomicReference;
+
+    .line 36
+    .line 37
+    invoke-virtual {v1}, Ljava/lang/Object;->notify()V
+
+    .line 38
+    .line 39
+    .line 40
+    monitor-exit v0
+
+    .line 41
+    return-void
+
+    .line 42
+    :catchall_0
+    move-exception v1
+
+    .line 43
+    goto :goto_0
+
+    .line 44
+    :catchall_1
+    move-exception v1
+
+    .line 45
+    iget-object v2, p0, Lf2/e7;->e:Ljava/util/concurrent/atomic/AtomicReference;
+
+    .line 46
+    .line 47
+    invoke-virtual {v2}, Ljava/lang/Object;->notify()V
+
+    .line 48
+    .line 49
+    .line 50
+    throw v1
+
+    .line 51
+    :goto_0
+    monitor-exit v0
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    .line 52
+    throw v1
+.end method
